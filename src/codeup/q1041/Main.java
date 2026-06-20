@@ -1,0 +1,17 @@
+package codeup.q1041;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		char ch = sc.next().charAt(0);
+		
+		System.out.printf("%c", ch+1);
+
+		sc.close();
+	}
+
+}
